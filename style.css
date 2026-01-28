@@ -1,0 +1,11 @@
+
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+.mi-contenedor {
+  border: 2px solid #333; /* Grosor, estilo (sólido) y color */
+  padding: 20px;          /* Espacio entre el borde y el texto */
+  margin: 10px;           /* Espacio por fuera del borde */
+  border-radius: 8px;     /* Opcional: bordes redondeados */
+}
