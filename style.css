@@ -9,3 +9,25 @@ h1, h2, h3, h4, h5, p {
   margin: 10px;           /* Espacio por fuera del borde */
   border-radius: 8px;     /* Opcional: bordes redondeados */
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Separa el logo de los enlaces */
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none; /* Quita los puntos de la lista */
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none; /* Quita el subrayado */
+}
