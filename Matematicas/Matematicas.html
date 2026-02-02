@@ -37,6 +37,28 @@
             color: white;
             text-decoration: none; /* Quita el subrayado */
         }
+
+        a {
+            text-decoration: none; /* Quita el subrayado del link */
+        }
+
+        button {
+            display: block;
+            /* 30px arriba y abajo, 'auto' a los lados para que siga centrado */
+            margin: 30px auto; 
+            
+            /* El resto de tu estilo se mantiene igual */
+            background: linear-gradient(135deg, #fbb26e, #e3bf77);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -52,9 +74,13 @@
         </ul>
     </nav>
 
+    <a href="cuestionarioMatematicas.html" target="_blank">
+        <button>Simulacro ICFES #1</button>
+    </a> 
+
     <div class="mi-contenedor">
         <h2>Cuadernillo De Preguntas</h2>
-        <p>Contenido</p>
+        <p>Simulacro ICFES #1</p>
 
         <object data="04_PRACTICA_MATEMATICAS.pdf" type="application/pdf" width="100%" height="700px"></object>
     </div>
